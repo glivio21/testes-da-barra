@@ -1,5 +1,5 @@
 javascript:(function(){
-  const SCRIPT_ID = 'tw-barra-tribuna';
+  const SCRIPT_ID = 'tw-testes';
   if(document.getElementById(SCRIPT_ID)) {
     document.getElementById(SCRIPT_ID).remove();
     return;
