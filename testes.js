@@ -61,31 +61,15 @@ javascript:(function(){
     ["Contador de Tropas 2", "https://icons.iconarchive.com/icons/be-os/be-box/32/Be-IDE-icon.png", "https://dl.dropboxusercontent.com/s/75jut7q397e03e5/troop_counter.js"],
     ["Adicionar Amigos", "https://icons.iconarchive.com/icons/be-os/be-box/32/Be-IDE-icon.png", "https://twscripts.dev/scripts/friendRequest.js"],
     ["Contador de Grupos", "https://icons.iconarchive.com/icons/be-os/be-box/32/Be-IDE-icon.png", "https://dl.dropboxusercontent.com/s/ry6d9uu2m0mcxsb/group%20counts.js"],
-    ["Import Grupos Dinâmicos", "https://icons.iconarchive.com/icons/be-os/be-box/32/Be-IDE-icon.png", "https://twscripts.dev/scripts/importExportDynamicGroups.js"],
-    ["Adicionar Grupo Manual", "https://icons.iconarchive.com/icons/be-os/be-box/32/Be-IDE-icon.png", "https://shinko-to-kuma.com/scripts/groupImport.js"],
     ["Histórico PPs", "https://icons.iconarchive.com/icons/be-os/be-box/32/Be-IDE-icon.png", "https://media.innogamescdn.com/com_DS_BR/Scripts/Aprovados/PPPurchaseHistoryScript.js"],
     ["Filtrar Coordenadas", "https://icons.iconarchive.com/icons/be-os/be-box/32/Be-IDE-icon.png", "javascript:(function(){fetch('https://raw.githubusercontent.com/glivio21/Filtrar-Coordenadas/main/coord-filter.js').then(r=>r.text()).then(t=>Function(t)()).catch(e=>alert('Erro ao carregar script: '+e.message));})();"]
 ]
 },
     {
-      titulo: '🤝 Scripts para Tribo',
-      icone: "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png",
-      scripts: [
-        ["Aristocracia", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://shinko-to-kuma.com/scripts/overwatch.js"],
-        ["Ver ataques na tribo", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://dl.dropboxusercontent.com/s/ikunxd5d59059b4/scriptMostrarAtaquesACaminho.js"],
-        ["Ataques (Tribo) - Membros", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://dl.dropboxusercontent.com/s/oy16zihcrmtul4k/tribeinc.js"],
-        ["Evolução (Tribo) - Membros", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://shinko-to-kuma.com/scripts/tribeStats.js"],
-        ["Evolução Players Rank", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://twscripts.dev/scripts/rankingGraphs.js"],
-        ["Calcular Tropas da Tribo", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://shinko-to-kuma.com/scripts/tribeMembersTroopCalculator.js"],
-        ["Análise de Tribos", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://twscripts.dev/scripts/tribeStatsTool.js"],
-        ["Convidar P/ Tribo em Massa", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://twscripts.dev/scripts/inviteToTribe.js"],
-        ["Gerar lista (Membros)", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://media.innogamescdn.com/com_DS_PL/skrypty/lista_mail.js"]
-      ]
-    },
-    {
       titulo: '🎯 Scripts Ofensivos',
       icone: "https://icons.iconarchive.com/icons/calle/smith-and-wesson/32/Target-icon.png",
       scripts: [
+        ["Calculadora de Ataques nas Bárbaras", "https://icons.iconarchive.com/icons/calle/smith-and-wesson/32/Target-icon.png", "https://twscripts.dev/scripts/lastTimeAttacked.js"],
         ["Exibir Comandos (Confirmar Ataque)", "https://icons.iconarchive.com/icons/calle/smith-and-wesson/32/Target-icon.png", "https://media.innogames.com/com_DS_NL/scripts/ConfirmEnhancer_206293.js"],
         ["Todos os Ataques Enviados (Perfil Player)", "https://icons.iconarchive.com/icons/calle/smith-and-wesson/32/Target-icon.png", "https://twscripts.dev/scripts/getIncsForPlayer.js"],
         ["Calculadora de MS (Confirmar Ataque)", "https://icons.iconarchive.com/icons/calle/smith-and-wesson/32/Target-icon.png", function(){
@@ -128,6 +112,8 @@ javascript:(function(){
       titulo: '🛑 Scripts Defensivos',
       icone: "https://icons.iconarchive.com/icons/be-os/be-box/32/APPS-Stop-icon.png",
       scripts: [
+        ["Calculadora de Snip Individual", "https://icons.iconarchive.com/icons/be-os/be-box/32/APPS-Stop-icon.png", "https://twscripts.dev/scripts/singleVillageSnipe.js"],
+        ["Calculadora de Snip Coletivo", "https://icons.iconarchive.com/icons/be-os/be-box/32/APPS-Stop-icon.png", "https://twscripts.dev/scripts/villagesInRange.js"],
         ["Remover Tropas de Apoio", "https://icons.iconarchive.com/icons/be-os/be-box/32/APPS-Stop-icon.png", "https://twscripts.dev/scripts/supportCounterEvolved.js"],
         ["Apoio em Massa", "https://icons.iconarchive.com/icons/be-os/be-box/32/APPS-Stop-icon.png", function(){
           window.heavyCav=4;
@@ -161,9 +147,7 @@ javascript:(function(){
           window.settings={highFarm:23000,lowPoints:2000,builtOutPercentage:0.25,needsMorePercentage:0.85};
           $.getScript("https://media.innogamescdn.com/com_DS_BR/Scripts/Aprovados/WarehouseBalancer.js");
         }],
-        ["Balanceador GOD", "https://icons.iconarchive.com/icons/be-os/be-box/32/APP-Server-icon.png", "https://dl.dropboxusercontent.com/s/bytvle86lj6230c/resBalancer.js?dl=0"],
         ["Eficiência do Farm (Relatórios)", "https://icons.iconarchive.com/icons/be-os/be-box/32/APP-Server-icon.png", "https://twscripts.dev/scripts/farmingEfficiencyCalculator.js"],
-        ["Requisitar Recursos", "https://icons.iconarchive.com/icons/be-os/be-box/32/APP-Server-icon.png", "https://gistcdn.githack.com/brunommpreto/cf2e40b0e7ec4cfd6e953635eff547b2/raw/coinMinter.js?min=1"],
         ["Mint Helper", "https://icons.iconarchive.com/icons/be-os/be-box/32/APP-Server-icon.png", "https://twscripts.dev/scripts/mintHelper.js"],
         ["Farm A/B/C", "https://icons.iconarchive.com/icons/be-os/be-box/32/APP-Server-icon.png", function(){
           window.cookieName='fakeypress';$.getScript('https://media.innogamescdn.com/com_DS_FR/Scripts/Pillage/fakeypress_lau.js');
@@ -173,23 +157,20 @@ javascript:(function(){
       ]
     },
     {
-      titulo: '🧮 Scripts de Calculadora',
-      icone: "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png",
+      titulo: '🤝 Scripts para Tribo',
+      icone: "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png",
       scripts: [
-        ["Calculadora de Ataques nas Bárbaras", "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png", "https://twscripts.dev/scripts/lastTimeAttacked.js"],
-        ["Calculadora de Snip Individual", "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png", "https://twscripts.dev/scripts/singleVillageSnipe.js"],
-        ["Calculadora de Snip 2", "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png", "https://shinko-to-kuma.com/scripts/massSnipe.js"],
-        ["Calculadora de Snip 3", "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png", function(){
-          window.ezsSettings={minimumSnipeDefense:{infantry:2000,cavalry:2000,archer:0},offensiveSnipes:false,maximumTimeUntilLaunch:4};
-          $.getScript('https://tylercamp.me/tw/ez-snipe.js');
-        }],
-        ["Calculadora de Snip (Mapa)", "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png", "https://twscripts.dev/scripts/villagesInRange.js"],
-        ["Calculadora de Lealdade", "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png", "https://twscripts.dev/scripts/loyaltyCalculator.js"],
-        ["Calculadora Snip e BT", "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png", "https://media.innogamescdn.com/com_DS_BR/Scripts/Aprovados/TsalkaponeCalculatorCompilation.js"],
-        ["Calculadora de BT", "https://icons.iconarchive.com/icons/be-os/be-box/32/Clock-icon.png", "https://twscripts.dev/scripts/bigTrainCalculator.js"]
+        ["Aristocracia", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://shinko-to-kuma.com/scripts/overwatch.js"],
+        ["Ver ataques na tribo", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://dl.dropboxusercontent.com/s/ikunxd5d59059b4/scriptMostrarAtaquesACaminho.js"],
+        ["Ataques (Tribo) - Membros", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://dl.dropboxusercontent.com/s/oy16zihcrmtul4k/tribeinc.js"],
+        ["Evolução (Tribo) - Membros", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://shinko-to-kuma.com/scripts/tribeStats.js"],
+        ["Calcular Tropas da Tribo", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://shinko-to-kuma.com/scripts/tribeMembersTroopCalculator.js"],
+        ["Análise de Tribos", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://twscripts.dev/scripts/tribeStatsTool.js"],
+        ["Convidar P/ Tribo em Massa", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://twscripts.dev/scripts/inviteToTribe.js"],
+        ["Gerar lista (Membros)", "https://icons.iconarchive.com/icons/iconfactory/sketchcons/32/smiley-icon.png", "https://media.innogamescdn.com/com_DS_PL/skrypty/lista_mail.js"]
       ]
     },
-    {
+        {
       titulo: '📢 Serviços',
       icone: "https://i.ibb.co/2YmvSFmb/logo-ttw-2.png",
       scripts: [
@@ -281,7 +262,7 @@ function createThemeToggle() {
   titulo.textContent = 'Tribuna Scripts - Versão de TESTES';
   titulo.style = `margin:0; color:${theme.fg}; flex-shrink: 0;`;
 
-  const toggle = createThemeToggle();
+   const toggle = createThemeToggle();
 
   const btnClose = document.createElement('span');
   btnClose.textContent = '✖';
